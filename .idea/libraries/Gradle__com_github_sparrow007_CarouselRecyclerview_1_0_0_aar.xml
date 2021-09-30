@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sparrow007:CarouselRecyclerview:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9713c22d2e1d55db9eb0728231be89cc/transformed/jetified-CarouselRecyclerview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcbf90db7055b561c0c35f98f4c53ec8/transformed/jetified-CarouselRecyclerview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4868be16495d4f67c2079b686f62a12a/transformed/jetified-CarouselRecyclerview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12837098d1e2afe4fef8bf0b3732f894/transformed/jetified-CarouselRecyclerview-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/12837098d1e2afe4fef8bf0b3732f894/transformed/jetified-CarouselRecyclerview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12837098d1e2afe4fef8bf0b3732f894/transformed/jetified-CarouselRecyclerview-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sparrow007/CarouselRecyclerview/1.0.0/cc7fcf6f8e62a7fc8a3b8e26b2539f154eaff866/CarouselRecyclerview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -3,12 +3,465 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".ui.DiscoveryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_margin="1dp"
+       android:gravity="center">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="25dp"
+           android:layout_marginTop="5dp"
+           android:layout_height="25dp"
+           android:src="@drawable/renish2" />
+
+
+       <EditText
+           android:layout_width="245dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="5dp"
+           android:background="@drawable/rounded_edit_text"
+           android:gravity="center"
+           android:hint="Search"
+           android:padding="1dp" />
+
+       <ImageView
+           android:layout_width="36dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="10dp"
+           android:padding="5dp"
+           android:src="@drawable/notification" />
+   </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="ALBUM ON SALE"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/sofia_pro_semi_bold_az"
+                    android:textStyle="bold"
+                    android:textColor="#272626"
+                    android:letterSpacing="0.1"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:padding="10dp"
+                    />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:layout_marginRight="10dp">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="50dp"
+                            android:src="@drawable/logo" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/ten" />
+
+                    </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="10dp">
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/logo" />
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:src="@drawable/three" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="20dp">
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/logo"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="40dp"/>
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:src="@drawable/four"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="ALBUM OF THE WEEK"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/sofia_pro_semi_bold_az"
+                    android:textStyle="bold"
+                    android:textColor="#272626"
+                    android:letterSpacing="0.1"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="10dp">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="120dp"
+                                android:layout_marginLeft="50dp"
+                                android:src="@drawable/logo" />
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:src="@drawable/underside" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="120dp"
+                            android:layout_marginRight="10dp">
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/logo" />
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:src="@drawable/two" />
+
+                        </FrameLayout>
+
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="SINGLES OF THE WEEK"
+                        android:textSize="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/sofia_pro_semi_bold_az"
+                        android:textStyle="bold"
+                        android:textColor="#272626"
+                        android:letterSpacing="0.1"
+                        android:shadowColor="@color/text_shadow"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="120dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:src="@drawable/logo" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/four"
+                                    android:layout_gravity="center"/>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="35dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logo" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/trav" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="20dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logo"
+                                    android:layout_marginLeft="40dp"/>
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/six"/>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="PLAYLIST OF THE WEEK"
+                        android:textSize="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/sofia_pro_semi_bold_az"
+                        android:textStyle="bold"
+                        android:textColor="#272626"
+                        android:letterSpacing="0.1"
+                        android:shadowColor="@color/text_shadow"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:layout_marginLeft="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="120dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:src="@drawable/logo" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/five" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="10dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="35dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logo" />
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/seven" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:layout_marginRight="20dp">
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/logo"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="40dp"/>
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:src="@drawable/one"/>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
 
 </FrameLayout>
